@@ -12,4 +12,4 @@ class cl:
    cyn="\033[1;36m"
    end="\033[0m"
 def logo():
-   print (cl.end + "[🔰]" + cl.cyn + "Programming Course" + cl.end + "[🔰]')
+   print (cl.end + "[🔰]" + cl.cyn + "Programming Course" + cl.end + "[🔰]")
