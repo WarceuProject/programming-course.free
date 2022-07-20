@@ -36,7 +36,7 @@ def menu():
     print("     0.Exit")
 logo()
 menu()
-pil=input("[#]Chosse: ")
+pil=input("[⌨]Chosse: ")
 if pil == 1:
     course()
 elif pil == 2:
