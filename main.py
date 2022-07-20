@@ -27,3 +27,4 @@ def menu():
                0.exit
                
    """)
+menu()
