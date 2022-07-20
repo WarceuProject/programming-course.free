@@ -11,16 +11,19 @@ class cl:
     pop="\033[1;35m" 
     cyn="\033[1;36m"
     end="\033[0m"
+#=====///Open Cource
+def course():
+   
 #=====/batas suci(update)
 def up():
-    os.system('git pull')
+   os.system('git pull')
 #=====/batas suci(about) 
 def about():
-    os.system('clear')
+   os.system('clear')
     print ("              [#] About Informations [#]")
 #=====/batas suci(logo)
 def logo():
-    os.system('clear')
+   os.system('clear')
     print("")
     print(cl.end + "           [" + cl.grn + "#" + cl.end + "]" + cl.cyn + " Course Programing " + cl.end + "[" + cl.grn + "#" + cl.end + "]" )
     print()
@@ -38,15 +41,15 @@ logo()
 menu()
 pil=input("[⌨]Chosse: ")
 if pil == 1:
-    course()
+   course()
 elif pil == 2:
-    up()
+   up()
 elif pil == 3:
-    about()
+   about()
 elif pil == 0:
-    print("Exit program,thanks gan udah mampir ^_^")
-    time.sleep(1)
-    sys.exit()
+   print("Exit program,thanks gan udah mampir ^_^")
+   time.sleep(1)
+   sys.exit()
 
 
 #======///done 
