@@ -13,3 +13,17 @@ class cl:
    end="\033[0m"
 def logo():
    print (cl.end + "[🔰]" + cl.cyn + "Programming Course" + cl.end + "[🔰]")
+def menu():
+   os.system('clear')
+   logo()
+   print('')
+   print (cl.end + """
+      [💻]Menu:
+              
+               1.Open course
+               2.update
+               3.about
+               4.donate pro version
+               0.exit
+               
+   """)
